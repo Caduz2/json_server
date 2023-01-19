@@ -1,0 +1,73 @@
+{
+    "books": [
+      {
+        "id": 1,
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "price": 20,
+        "genre": "Fantasy"
+      },
+      {
+        "id": 2,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "price": 15,
+        "genre": "Fiction"
+      }
+    ],
+    "authors": [
+      {
+        "id": 1,
+        "name": "J.K. Rowling",
+        "nationality": "British"
+      },
+      {
+        "id": 2,
+        "name": "Harper Lee",
+        "nationality": "American"
+      }
+    ],
+    "genres": [
+      {
+        "id": 1,
+        "name": "Fantasy"
+      },
+      {
+        "id": 2,
+        "name": "Fiction"
+      }
+    ],
+    "customers": [
+      {
+        "id": 1,
+        "name": "John Smith",
+        "email": "john@example.com",
+        "address": "123 Main St"
+      },
+      {
+        "id": 2,
+        "name": "Jane Doe",
+        "email": "jane@example.com",
+        "address": "456 Park Ave"
+      }
+    ],
+    "orders": [
+      {
+        "id": 1,
+        "customer_id": 1,
+        "book_id": 1,
+        "quantity": 2,
+        "total_price": 40,
+        "date": "2022-01-01"
+      },
+      {
+        "id": 2,
+        "customer_id": 2,
+        "book_id": 2,
+        "quantity": 1,
+        "total_price": 15,
+        "date": "2022-01-02"
+      }
+    ]
+  }
+  
